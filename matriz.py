@@ -3,9 +3,11 @@ import numpy as np
 def cargarTexto():
     return [x.split() for x in open("matriz.txt").readlines()]
 
-def mostrar(matriz):
+def imprimirPrimeraPosicion(matriz):
+    print matriz[0]
 
-    print(matriz[0])
+def mostrar(matriz):
+    imprimirPrimeraPosicion(matriz)
 
     if len(matriz[1:,:]) is not 0:
         mostrar(np.rot90(matriz[1:, :]))
