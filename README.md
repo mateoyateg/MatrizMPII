@@ -5,4 +5,4 @@ Leer una matriz cuadrada de tamaño m en forma de caracol.
 
 * Juan Manuel Ostos Quiñones
 * Mateo Yate Gonzalez
-* Brayan Alexander Paredes Sánchez
+* Brayan Alexander Paredes Sánchez - 20171020106
